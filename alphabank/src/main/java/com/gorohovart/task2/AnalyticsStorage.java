@@ -1,4 +1,4 @@
-package com.gorohovart.alphabank;
+package com.gorohovart.task2;
 
 import java.util.HashMap;
 

@@ -1,11 +1,14 @@
-package com.gorohovart.alphabank;
+package com.gorohovart.task2;
+
+import java.math.BigDecimal;
 
 public class Payment {
+    private String ref;
     private Integer categoryId;
     private String userId;
     private String recipientId;
     private String desc;
-    private Double amount;
+    private BigDecimal amount;
 
     public Integer getCategoryId() {
         return categoryId;
@@ -39,11 +42,11 @@ public class Payment {
         this.desc = desc;
     }
 
-    public Double getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(Double amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 
